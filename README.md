@@ -1,6 +1,9 @@
 # COVID-19 Detection from Chest CT Scans
 This web application allows users to upload a 2D chest CT scan image to determine whether it is affected by COVID-19. The detection is performed using a pre-trained deep learning model.
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Features
 - Simple and User-Friendly Interface: Upload an image directly via the web app.
 - Efficient Detection: Utilizes a trained VGG-based ensembled deep learning model for accurate predictions.
@@ -79,9 +82,6 @@ http://127.0.0.1:5000/
 - Ensure the uploads/ folder is writable by the server.
 - Remove unused files in the uploads/ directory for better storage management.
 - The model is trained on specific datasets. Accuracy may vary on unseen data.
-
-## License
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 For this project I have used the trained model from the paper cited below. We also thankful to the developers of TensorFlow and Keras for providing excellent tools for deep learning.
